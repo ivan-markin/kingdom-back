@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "exhibitions",
+  "info": {
+    "singularName": "exhibition",
+    "pluralName": "exhibitions",
+    "displayName": "Exhibition"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "address": {
+      "type": "string"
+    },
+    "metro": {
+      "type": "string"
+    },
+    "timeAmount": {
+      "type": "string"
+    },
+    "workingHours": {
+      "type": "string"
+    }
+  }
+}

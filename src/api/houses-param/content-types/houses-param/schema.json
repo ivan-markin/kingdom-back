@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "houses_params",
+  "info": {
+    "singularName": "houses-param",
+    "pluralName": "houses-params",
+    "displayName": "Houses Param",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "shortDescription": {
+      "type": "string"
+    },
+    "longDescription": {
+      "type": "text"
+    }
+  }
+}

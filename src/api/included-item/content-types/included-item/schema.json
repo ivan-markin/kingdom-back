@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "included_items",
+  "info": {
+    "singularName": "included-item",
+    "pluralName": "included-items",
+    "displayName": "Included Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

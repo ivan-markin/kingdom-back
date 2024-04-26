@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_items",
+  "info": {
+    "singularName": "about-item",
+    "pluralName": "about-items",
+    "displayName": "About Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

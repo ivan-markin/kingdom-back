@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stage_items",
+  "info": {
+    "singularName": "stage-item",
+    "pluralName": "stage-items",
+    "displayName": "Stage Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

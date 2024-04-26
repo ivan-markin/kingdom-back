@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_items",
+  "info": {
+    "singularName": "contacts",
+    "pluralName": "contact-items",
+    "displayName": "Contacts"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "telegramLink": {
+      "type": "string"
+    },
+    "whatsappLink": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
